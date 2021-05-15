@@ -1,0 +1,117 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+}
+
+@font-face{
+    font-family : "Raleway-Bold";
+    src : url('../fonts/Raleway-Bold.ttf');
+}
+
+@font-face{
+    font-family : "Raleway-Regular";
+    src : url('../fonts/Raleway-Regular.ttf');
+}
+@font-face{
+    font-family : "Raleway-SemiBold";
+    src : url('../fonts/Raleway-SemiBold.ttf');
+}
+
+.flex{
+    display : flex;
+}
+
+.flex1{
+    flex : 1;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+p{
+    font-family: "Raleway-Regular";
+    line-height: 1.6rem;
+    font-size : 1.5rem;
+}
+
+header.nav{
+    width : 100vw;
+    height : 100vh;
+    background-image: linear-gradient(to left bottom, #0f2aa6, #75179f, #aa0090, #d0007d, #eb1267);
+}
+
+header.nav .top{
+    width : 100%;
+    padding : 20px 80px;
+}
+
+header.nav .top .logo{
+    font-family : "Raleway-Bold";
+    text-decoration: none;
+    color : white;
+    font-size : 3rem;
+}
+
+header.nav .top .logo span{
+    color : yellow;
+    font-size : 4rem;
+}
+
+header.nav .top ul{
+    list-style: none;
+}
+
+header.nav .top ul a{
+    text-decoration: none;
+    padding-left: 25px;
+    font-size: 1.3rem;
+    font-family: "Raleway-SemiBold";
+    color : yellow;
+}
+
+header.nav .banner{
+    padding : 4rem;
+}
+
+header.nav .banner .banner-content h1{
+    font-family : "Raleway-Bold";
+    color : white;
+    font-size : 4rem;
+    margin-bottom : 1rem;
+    transform: translate(3rem, -1rem);
+}
+
+header.nav .banner .banner-content h1 span{
+    color : yellow;
+}
+
+header.nav .banner .banner-content p{
+    color : white;
+    transform: translate(3rem, -1rem);
+}
+
+header.nav .banner .img-wrapper{
+    height : 300px;
+    width : 300px;
+    background-color: yellow;
+    position : relative;
+    right : 60px;
+    top : 20px;
+    clip-path: polygon(25% 6%, 75% 6%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+}
+
+header.nav .banner .img-wrapper img{
+    position : absolute;
+    transform: translateX(13px);
+    bottom : 0;
+}
