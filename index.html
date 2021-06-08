@@ -8,32 +8,43 @@
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <header class="nav">
         <nav class="top flex justify-between items-center">
-            <a href="#" class="logo">Portfolio<span>.</span></a>
+            <a href="#" class="logo">Portfolio</a>
             <ul class="flex">
-                <li><a href="">Home</a></li>
                 <li><a href="">About Me</a></li>
                 <li><a href="">My Projects</a></li>
                 <li><a href="">Skills</a></li>
                 <li><a href="">Contact Me</a></li>
             </ul>
+            <div class="nav-img" onclick="toggle()">
+                <img src="Images/menu-btn.png" alt="">
+            </div>
         </nav>
 
-        <header class="banner flex flex1 justify-between items-center">
-            <div class="banner-content">
-                    <h1>I am <span>Abhishek</span></h1>
-                    <p>I am a Web Designer and Programmer</p>
+        <div class="sm-wrapper">
+            <div class="sm-nav flex flex-col items-center justify-between">
+                <li><a href="">About Me</a></li>
+                <li><a href="">My Projects</a></li>
+                <li><a href="">Skills</a></li>
+                <li><a href="">Contact Me</a></li>
             </div>
-            <div class="img-wrapper">
-                <img src="Images/itsme.png" alt="">
-            </div>            
-        </header>
-    </header>
+          </div>
 
-    <!-- ABOUT ME  -->
-    <section class="about">
-        
-    </section>
+        <section class="content-wrapper flex items-center justify-center flex-wrap">
+            <div>
+                <p>Hello, I am Abhishek</p>
+                <div class="wrapper flex">
+                    <div class="static-txt">I'm a</div>
+                    <ul class="dynamic-txts">
+                        <li><span>Undergraduate</span></li>
+                        <li><span>Web Developer</span></li>
+                        <li><span>Intern</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="img-box">
+                <img src="Images/img1.png" alt="">
+            </div>
+        </section>
 </body>
 </html>
